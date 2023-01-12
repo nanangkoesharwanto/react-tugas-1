@@ -128,22 +128,22 @@ function CarouselSlider() {
             <Carousel.Item>
                 <img className="d-block w-100" src={first} alt="First slide" />
                 <Carousel.Caption>
-                    <h3>Easy to use</h3>
-                    <p>you're just a few shortcuts away from becoming a master</p>
+                    <h3>Jadi expert bersama edspert.id</h3>
+                    <p>Tingkatkan skill dan pengetahuan bersama para mentor terbaik di bidangnya, untuk siapkan karir impian anda.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img className="d-block w-100" src={second} alt="Second slide" />
                 <Carousel.Caption>
-                    <h3>Portable</h3>
-                    <p>being a plain text format you can read and edit it using any editor</p>
+                    <h3>Mentor Expert Dibidangnya</h3>
+                    <p>Para mentor terpilih di edspert.id adalah para mentor berpengalaman yang siap membimbing kamu.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img className="d-block w-100" src={third} alt="Third slide" />
                 <Carousel.Caption>
-                    <h3>Custom symbols</h3>
-                    <p>you can replace the default symbols with any of the supported ones</p>
+                    <h3>Materi dan Kurikulum yang Relevan</h3>
+                    <p>Kurikulum kelas di edspert selalu di perbarui dan di sesuaikan dengan kebutuhan industri saat ini.</p>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>

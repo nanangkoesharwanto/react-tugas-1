@@ -10,7 +10,7 @@ function Footer() {
         <div className="main-footer hide-element footer mt-3">
             <Container className='py-5'>
                 <Row>
-                    <Col className="col-footer" xs={6}>
+                    <Col className="col-footer mb-5" md={6}>
                         <img
                             alt=""
                             src={logo}

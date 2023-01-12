@@ -45,11 +45,10 @@ function Main() {
             </Container>
 
             <Row className="justify-content-center bg-mid">
-                <Col style={{ height: 300, color: 'white' }}>
-                    <h1>React JS</h1>
-                    <h1>With Bootstrap</h1>
-                    <h1>Bootcamp</h1>
-                    <p className='mt-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <Col style={{ minHeight: 300, color: 'white' }}>
+                    <h1 className='pt-3'>Kenapa memilih Edspert?</h1>
+                    <h3 className='pt-3'>Edspert mencetak talenta terbaik dengan menghadirkan kelas-kelas pembelajaran berkualitas.</h3>
+                    <p className='mt-4 px-3'>Kami percaya bahwa kemajuan suatu bangsa tidak lepas dari kualitas sumber daya manusianya. Oleh sebab itu Edspert hadir sebagai platform belajar skill dan pengembangan diri bersertifikat untuk meningkatkan kualitas sumber daya manusia di Indonesia agar memiliki daya saing tingkat dunia. Edspert adalah bagian dari perusahaan Widya Edutech dan juga Widya Group. Kami menyediakan berbagai kelas live interaktif dan berbagai konten pendidikan lainnya yang diisi oleh para expert atau para ahli di bidangnya agar masyarakat dapat memperoleh kelas dan konten terbaik yang berkualitas dengan akses yang mudah.</p>
                 </Col>
             </Row>
 
@@ -58,39 +57,21 @@ function Main() {
                     <Col>
                         <Accordion defaultActiveKey="0">
                             <Accordion.Item eventKey="0">
-                                <Accordion.Header>Information #1</Accordion.Header>
+                                <Accordion.Header>Project-based learning</Accordion.Header>
                                 <Accordion.Body>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                    aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                    culpa qui officia deserunt mollit anim id est laborum.
+                                Terdapat project di setiap kelas yang akan kamu kerjakan di bawah bimbingan mentor. Project tersebut dapat menambah portfolio kamu.
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="1">
-                                <Accordion.Header>Information #2</Accordion.Header>
+                                <Accordion.Header>Certificate</Accordion.Header>
                                 <Accordion.Body>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                    aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                    culpa qui officia deserunt mollit anim id est laborum.
+                                Setelah selesai mengikuti kelas, akan ada sertifikat kelulusan yang bisa kamu gunakan untuk mempermudah mendapat pekerjaan.
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="2">
-                                <Accordion.Header>Information #3</Accordion.Header>
+                                <Accordion.Header>Online Course</Accordion.Header>
                                 <Accordion.Body>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                    aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                    culpa qui officia deserunt mollit anim id est laborum.
+                                Pembelajaran yang dilakukan secara mandiri. Pemamparan materi dikemas dalam bentuk video. Sesuai jadwal waktu luang kamu. Rata-rata dapat diselesaikan dalam 6-10 hari.
                                 </Accordion.Body>
                             </Accordion.Item>
                         </Accordion>
